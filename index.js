@@ -203,7 +203,7 @@ async function playSound(shortname = null, loop = false, isMusic = false) {
     sourceName,
     sourceSettings: {
       looping: loop,
-      local_file: `C:/Users/marius/Documents/Nextcloud/NodeJs/matti-millionär/static/${dict[shortname]}`
+      local_file: `https://raw.githubusercontent.com/Logianer/mattiwirdmillionaer/main/static/${dict[shortname]}`
     }
   })
   console.log("playing sound " + dict[shortname]);
