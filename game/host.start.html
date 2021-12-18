@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="main.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="conatiner">
+    <ul>
+      <li>
+        <a class="btn" id="quests" href="https://docs.google.com/spreadsheets/d/1ur4vgOymQcVws9lGTuRyDF4E9Mneb8eiEVi2cSGKeIw/preview" target="_blank">Fragen einsehen</a>
+      </li>
+      <li><button class="btn" id="start">Spiel starten</button></li>
+
+      <li>
+        <select name="answerlist">
+          <option value="0">A</option>
+          <option value="1">B</option>
+          <option value="2">C</option>
+          <option value="3">D</option>
+        </select>
+        <button class="btn" id="answer">Antworten</button>
+      </li>
+      <li><button class="btn" id="resolve">Frage auflösen</button></li>
+      <li><button class="btn" id="next">Weiter</button></li>
+      <li>
+        <select name="jokerlist">
+          <option value="0">Publikumsjoker</option>
+          <option value="1">50:50</option>
+        </select>
+        <button class="btn" id="joker">Joker einsetzen</button>
+      </li>
+      <li>
+        <label><input type="checkbox" name="questionVisibility"> Frage sichtbar</label>
+      </li>
+      <li>
+        <button class="btn" id="panic">🚨 Zurück zur Main-Szene</button>
+      </li>
+    </ul>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script>
+  var secret
+  $("#start").click(() => {
+    socket.emit("start")
+  })
+  const socket = io()
+  $(`input[name="questionVisibility"]`).click((e) => {
+    socket.emit("questionVisibility", $(e.target).is(":checked"))
+  })
+  $("#answer").click(() => {
+    socket.emit("answer", $(`select[name="answerlist"] option:selected`).val())
+  })
+  $("#joker").click(() => {
+    socket.emit("joker", $(`select[name="jokerlist"] option:selected`).val())
+  })
+  $("#next").click(() => {
+    socket.emit("next")
+    $(`input[name="questionVisibility"]`).prop("checked", false);
+  })
+  $("#resolve").click(() => {
+    socket.emit("resolve")
+  })
+  $("#panic").click(() => {
+    socket.emit("panic")
+  })
+  </script>
+</body>
+
+</html>
