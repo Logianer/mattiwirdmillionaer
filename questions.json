@@ -1,0 +1,63 @@
+{
+  "questions": [{
+    "title": "Matti, Mattibergi, oder mit bürgerlichem Namen auch Matthias...",
+    "answers": ["Täler", "Flüsser", "Berger", "Wälder"],
+    "rightAnswer": 2
+  }, {
+    "title": "Wie heißt eine von Mattis Schwestern?",
+    "answers": ["Tabascko", "Maggy", "Ketchub", "Maionnaisse"],
+    "rightAnswer": 1
+  }, {
+    "title": "Wohin willst du laut deinem Video vom 30.10.20 nie hinziehen?",
+    "answers": ["Hamburg", "Berlin", "Münster", "Köln"],
+    "rightAnswer": 1
+  }, {
+    "title": "Was ist das deutsche Wort des Jahres 2021?",
+    "answers": ["Wellenbrecher", "Corona-Pandemie", "Respektrente", "Heisszeit"],
+    "rightAnswer": 0
+  }, {
+    "title": "Wie viele verschiedene Mattis gibt es?",
+    "answers": ["10", "11", "12", "7"],
+    "rightAnswer": 1
+  }, {
+    "title": "Welcher dieser Zauberer ist am ältesten (geworden)?",
+    "answers": ["Houdini", "Penn", "Hofzinser", "Copperfield"],
+    "rightAnswer": 2
+  }, {
+    "title": "Seit wann existiert dein Twitch-Kanal \"matthias_berger\"?",
+    "answers": ["14. Januar 2016", "4. April 2016", "23. Juli 2016", "17. Dezember 2016"],
+    "rightAnswer": 0
+  }, {
+    "title": "An welchem Wochentag wurdest du geboren?",
+    "answers": ["Mittwoch", "Donnerstag", "Freitag", "Samstag"],
+    "rightAnswer": 1
+  }, {
+    "title": "Wann wurde die erste Folge \"Wer wird Millionär\" im Deutschen Fernsehen ausgestrahlt?",
+    "answers": ["06.10.1998", "03.09.1999", "08.11.1999", "03.08.2000"],
+    "rightAnswer": 1
+  }, {
+    "title": "Wie viele Videos hast du bisher auf deinem Hauptkanal \"Matthias Berger\" veröffentlicht? (Stand heute 20:15)",
+    "answers": ["1486", "1358", "2374", "2583"],
+    "rightAnswer": 0
+  }, {
+    "title": "Wie oft explodierte dein Kopf bisher in deinem beliebten Frage-und-Antwort-Format \"FragMrtrixxl\"?",
+    "answers": ["9 Mal", "14 Mal", "16 Mal", "19 Mal"],
+    "rightAnswer": 1
+  }, {
+    "title": "Wie lautet der Titel des Hauptkanal-Videos mit den wenigsten Aufrufen?",
+    "answers": ["\"PSYCHO-TEST!!!\"", "\"CONTEST FÜR ZAUBERER - MACH MIT!!!\"", "\"SKYPE-GESPRÄCH MIT MRTRIXXL\"", "\"DIE GEWINNER DER BICYCLE PLAYING CARDS!!\""],
+    "rightAnswer": 3
+  }, {
+    "title": "Wie lang ist das längste Video auf deinem Hauptkanal, welches kein Livestream ist?",
+    "answers": ["01:35:31", "02:17:24", "04:42:17", "03:24:47"],
+    "rightAnswer": 1
+  }, {
+    "title": "Welches dieser Videos von deinem Hauptkanal hat das schlechteste Like/Dislike Verhältnis?",
+    "answers": ["Mathe-Trick - INTERAKTIV - LÖSUNG", "\"Münzentrick 01\" by Marat Tricks - #4 DEIN TRICK", "UNLÖSBARES RÄTSEL??? (Mathematik-Rätsel)", "LIVESTREAM: KUMMERKASTEN"],
+    "rightAnswer": 3
+  }, {
+    "title": "Welches dieser Videos hast du um 06:25 Uhr hochgeladen?",
+    "answers": ["#1 Frag MrTriXXL - Eure Fragen, meine Antworten", "RIP Chester Bennington", "2017 - Das Jahr meines Lebens in einem Video", "Ich habe meinen Kanal wieder... ❤️ Ich könnte heulen..."],
+    "rightAnswer": 0
+  }]
+}
