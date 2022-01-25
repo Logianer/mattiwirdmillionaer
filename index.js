@@ -108,7 +108,7 @@ async function jokervote() {
   voteRes[2] = vals.filter(v => v == "C").length / vals.length
   voteRes[3] = vals.filter(v => v == "D").length / vals.length
   voteRes.forEach((item, i) => {
-    voteRes[i] = item * 100
+    voteRes[i] = Math.round(item * 100)
   });
   console.log(await obs.send("SetSourceSettings", {
     sourceName: "Chart",
