@@ -1,4 +1,5 @@
 # Matti wird Millionär
+[![CodeFactor](https://www.codefactor.io/repository/github/logianer/mattiwirdmillionaer/badge)](https://www.codefactor.io/repository/github/logianer/mattiwirdmillionaer)
 Here is the code of the #missionsilent-Project "Matti wird Millionär"   
  
 ## 0. Dependencies
